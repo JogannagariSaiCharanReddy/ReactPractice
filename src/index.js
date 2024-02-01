@@ -25,8 +25,8 @@ function Menu() {
 }
 function Footer() {
   const hour = new Date().getHours();
-  const open = 10;
-  const close = 22;
+  const open = 9;
+  const close = 23;
   const isOpen = (hour) => hour >= open && hour <= close;
   console.log(isOpen);
   return (
